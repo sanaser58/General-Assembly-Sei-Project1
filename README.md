@@ -6,7 +6,7 @@ for this project i want to make somethings that would be user friendly and easy 
 
 ## Wireframe:
 
-![wireframe](https://imgur.com/4hjkn7N.jpg)
+![wireframe](https://imgur.com/SCVtTLN.jpg)
 
 
 ## API: 
