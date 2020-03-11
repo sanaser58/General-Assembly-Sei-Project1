@@ -1,28 +1,98 @@
-.form-control {
-    width: 760px;
-    padding: .375rem .75rem;
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.5;
-    outline: none;
-    color: #495057;
-    background-color: #fff;
-    border: 1px solid #ced4da;
-    border-radius: .25rem;
-}
 
 
-#search{
-    color: #fff;
-    background-color: #007bff;
-
-    outline: none;
-    min-height: 38px;
-    font-weight: 400;
+body {
     text-align: center;
+    background-image: url('backimg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    /* background-size: 100% 100%; */
+    background-size: cover;
+    /* background-color: rgb(194, 210, 216); */
+    /* background-image: url('backimg.jpg'); */
+  }
+  h1{
+      color: #D14D10;
+      text-transform: uppercase;
+      font-size: 4em;
+  }
+  h2{
+    text-transform: uppercase;
+    color: black;
+    font-size: 2em;
+
+  }
+  h3.movieTitle{
+      color:black;
+    
+
+  }
+   input {
+    padding: 8px;
+    border-radius: 2px;
+    border-radius: 14%;
+    margin:5px;
+  } 
+  img {
+    height: 300px;
+    width: 100%;
+  }
+  
+  img:hover{
+    margin-left: 0 40px;
+    transform: scale(1.2);
     cursor: pointer;
-    padding: .375rem .75rem;
+
+
+  }
+  button {
+    text-transform: uppercase;
+    color: #fff;
+    background-color:#CB4B11;
+    /* outline: none; */
+    min-height: 38px;
     font-size: 1rem;
-    line-height: 1.5;
-    border-radius: .25rem;
+    padding: 12px;
+    border-radius: .35rem;
+  }
+  
+  /* .search-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+  } */
+  .search-section input {
+    text-transform: uppercase;
+    width: 500px;
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4;
+    background-color: #fff;
+    border-radius: .35rem;
+    border: 1px solid #CB4B11;
 }
+  
+  
+  
+  #movie-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: space-around;
+    flex-wrap: wrap; 
+    margin: 50px auto;
+  }
+  
+  .movie-card {
+    width: 250px;
+    height: 400px;
+    border: 1px solid #000000;
+    margin: 25px 5px;
+    padding: 15px 5px 0 5px;
+  }
+  
+  .poster {
+    width: 100%;
+   
+  }
