@@ -1,7 +1,7 @@
 # General-Assembly-Sei-Project1
 
 ## Title: 
-Movie App
+Movie Club
 
 Sayed Naser
 ## Description: 
