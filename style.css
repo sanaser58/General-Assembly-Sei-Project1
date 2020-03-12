@@ -77,7 +77,7 @@ h3.movieTitle{
 
   /* MEDIA QUERY FOR TABLETS AND SMALLER */
 
-@media only screen and (min-device-width:375px) (max-device-height:812px) {
+@media only screen and (max-device-width:770px) {
   /* html {
     font-size: 14px;
   } */
@@ -115,9 +115,6 @@ h3.movieTitle{
     margin: 0px;
   }
   
-  
-  
-
 
 }
 /* (max-width: 770px) */
