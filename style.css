@@ -2,9 +2,6 @@ body {
   font: 15px/1.5 Arial, Helvetica,sans-serif;
   text-align: center;
   background-color: #D6D5E3;
-  /* background-repeat: no-repeat; */
-  /* background-attachment: fixed; */
-  /* background-size: cover; */
 }
 #logo {
   width: 250px;
@@ -77,10 +74,7 @@ h3.movieTitle{
 
   /* MEDIA QUERY FOR TABLETS AND SMALLER */
 
-@media only screen and (max-device-width:770px) {
-  /* html {
-    font-size: 14px;
-  } */
+@media only screen and (min-width:375),(max-width: 770px)  {
  
   h1{
     font-size: 2.5em;
@@ -89,13 +83,7 @@ h3.movieTitle{
     font-size: 1.3em;
   }
   .search-section input {
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
   width: 95%;
-  /* margin: 0 15px 0 15px; */
-  /* margin-left: 10px;
-  margin-right: 10px; */
   }
   button{
     /* display: flex; */
@@ -114,7 +102,21 @@ h3.movieTitle{
   #movie-container{
     margin: 0px;
   }
-  
 
 }
-/* (max-width: 770px) */
+@media only screen and (min-width:1024),(max-width: 1199px){
+  body {
+    
+    background-color: #FFFFFF;
+  }
+  .movie-card {
+    border: 2px solid #CB4B11;
+    
+  }
+}
+
+
+
+
+
+
